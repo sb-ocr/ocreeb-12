@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-01-11T14:51:47Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "Ocreeb 12_W_ARTWORK"
+        },
+        "Owner": "Salim Benbouziyane <salim@ocrism.studio>",
+        "Size": {
+            "X": 81,
+            "Y": 87
+        }
+    }
+}
