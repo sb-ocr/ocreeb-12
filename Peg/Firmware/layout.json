@@ -1,0 +1,95 @@
+{
+    "features": {
+        "name": "Ocreeb",
+        "creator": "Salim Benbouziyane",
+        "oled": false,
+        "ble": false,
+        "perkey": false,
+        "perkeyCount": 0,
+        "underglow": false,
+        "underglowCount": 0,
+        "encoders": true,
+        "encoderCount": 1,
+        "split": false,
+        "rightSide": false,
+        "rx_tx": false,
+        "uartFlip": false,
+        "splitPico": false,
+        "bootSize": 0
+    },
+    "layout": [
+        {
+            "w": 1,
+            "x": 0,
+            "y": 0
+        },
+        
+        {
+            "w": 1,
+            "x": 3,
+            "y": 0
+        },
+
+        {
+            "w": 1,
+            "x": 0,
+            "y": 1
+        },
+
+        {
+            "w": 1,
+            "x": 1,
+            "y": 1
+        },
+        {
+            "w": 1,
+            "x": 2,
+            "y": 1
+        },
+        {
+            "w": 1,
+            "x": 3,
+            "y": 1
+        },
+        {
+            "w": 1,
+            "x": 0,
+            "y": 2
+        },
+        {
+            "w": 1,
+            "x": 1,
+            "y": 2
+        },
+        {
+            "w": 1,
+            "x": 2,
+            "y": 2
+        },
+        {
+            "w": 1,
+            "x": 3,
+            "y": 2
+        },
+        {
+            "w": 1,
+            "x": 0,
+            "y": 3
+        },
+        {
+            "w": 1,
+            "x": 1,
+            "y": 3
+        },
+        {
+            "w": 1,
+            "x": 2,
+            "y": 3
+        },
+        {
+            "w": 1,
+            "x": 3,
+            "y": 3
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "code": "simple_key_sequence([KC.LCMD(KC.LSFT(KC.BSPC))])",
+    "display": "CLR",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Clear Browser Data (Chrome macOS)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCTRL(KC.LSFT(KC.BSPC))])",
+    "display": "CLR",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Clear Browser Data (Chrome Windows)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCMD(KC.LALT(KC.I))])",
+    "display": "DEV",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Open Dev Tools (Chrome macOS)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCTRL(KC.LSFT(KC.I))])",
+    "display": "DEV",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Open Dev Tools (Chrome Windows)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCMD(KC.LALT(KC.J))])",
+    "display": "CSL",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Open Console (Chrome macOS)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCTRL(KC.LSFT(KC.J))])",
+    "display": "CSL",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Open Console (Chrome Windows)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCMD(KC.LSFT(KC.R))])",
+    "display": "RLD",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Hard Reload (Chrome macOS)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCTRL(KC.LSFT(KC.R))])",
+    "display": "RLD",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Hard Reload (Chrome Windows)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LCTRL(KC.LCMD(KC.Q)), KC.MACRO_SLEEP_MS(400), KC.ESCAPE])",
+    "display": "LOCK",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Lock Screen (macOS)"
+  },
+  {
+    "code": "simple_key_sequence([KC.LWIN(KC.L)])",
+    "display": "LOCK",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "Lock Screen (Windows)"
+  },
+  {
+    "code": "send_string('git status')",
+    "display": "G ST",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "git status"
+  },
+  {
+    "code": "simple_key_sequence([send_string('git commit -m \"\"'), KC.LEFT])",
+    "display": "G CM",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "git commit -m \"\" (Send String)"
+  },
+  {
+    "code": "send_string('git fetch origin')",
+    "display": "G FT",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "git fetch origin (Send String)"
+  },
+  {
+    "code": "send_string('git add .')",
+    "display": "G AD",
+    "keybinding": "",
+    "canHaveSub": false,
+    "canHaveSubNumber": false,
+    "subNumber": 0,
+    "Description": "git add . (Send String)"
+  }
+]
