@@ -22,7 +22,7 @@ encoder_handler.pins = ((keyboard.rgb_encoder_a, keyboard.rgb_encoder_b, None, F
 encoder_handler.map =   [ ((KC.RGB_HUD, KC.RGB_HUI, KC.RGB_TOG),), ]
 keyboard.extensions.append(MediaKeys())
 keyboard.extensions.append(rgb)
-#keyboard.extensions.append(encoder_handler)
+keyboard.extensions.append(encoder_handler)
 # codeblock
 keyboard.modules = [layers_ext, modtap]
 # encodercount
