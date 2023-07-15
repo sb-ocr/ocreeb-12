@@ -16,9 +16,25 @@ from kmk.extensions.media_keys import MediaKeys
 from kmk.handlers.sequences import simple_key_sequence
 from kmk.modules.encoder import EncoderHandler
 from kmk.extensions.RGB import RGB
-rgb = RGB(pixel_pin=keyboard.rgb_pixel_pin, num_pixels=keyboard.rgb_num_pixel, hue_default=80)
+import microcontroller
+
+rgb = RGB(
+    pixel_pin=keyboard.rgb_pixel_pin, 
+    num_pixels=keyboard.rgb_num_pixel, 
+    hue_default=microcontroller.nvm[0]
+)
+
+def on_move_do(state):
+    if state is not None and state['direction'] == -1:
+        rgb.decrease_hue()
+    else:
+        rgb.increase_hue()
+    microcontroller.nvm[0] = rgb.hue
+
 encoder_handler = EncoderHandler()
 encoder_handler.pins = ((keyboard.rgb_encoder_a, keyboard.rgb_encoder_b, None, False),)
+encoder_handler.on_move_do = lambda x, y, state: on_move_do(state)
+
 encoder_handler.map =   [ ((KC.RGB_HUD, KC.RGB_HUI, KC.RGB_TOG),), ]
 keyboard.extensions.append(MediaKeys())
 keyboard.extensions.append(rgb)
